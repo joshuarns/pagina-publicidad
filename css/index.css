@@ -3,8 +3,11 @@ body {
     margin: 0;
 }
 
-.container {
+.contenedor{
     width: 100% !important;
+    display: grid;
+    justify-content: center;
+
 }
 
 .image-cards img {
