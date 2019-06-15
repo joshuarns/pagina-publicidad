@@ -3,8 +3,11 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 100% !important;
+}
+
 .image-cards img {
-<<<<<<< HEAD
     max-width: 300px;
     max-height: 300px;
 }
@@ -13,12 +16,5 @@ body {
 .fadeIn-one,
 .fadeIn-two,
 .fadeIn-three {
-=======
-  max-width: 300px;
-  max-height: 300px;
-}
-
-.title-products {
->>>>>>> feature
     display: none;
 }
