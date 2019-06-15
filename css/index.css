@@ -3,11 +3,23 @@ body {
     margin: 0;
 }
 
-.contenedor{
-    width: 100% !important;
-    display: grid;
-    justify-content: center;
 
+/* Nabvar */
+nav {
+    background: #ffbf00 !important;
+}
+/* INT Content */
+.contenedor {
+    width: 100% !important;
+}
+
+.title-products {
+    padding: 35px 60px 4px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
 }
 
 .image-cards img {
