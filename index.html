@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,106 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.css">
 </head>
-<body>
 
+<body>
+    <!-- CSS3 -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Boostrap css -->
+    <!--
+navbar-dark
+bg-dark
+
+fixed-top
+fixed-bottom
+-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-white">Joshua Puñetas</a>
+            <img src="img/logo.png" height="20p">
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item-active">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-target="desplegable" href="#">Contactanos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Usuario</a>
+                            <a class="dropdown-item">Perfiles</a>
+                        </div>
+                    </li>
+                </ul>
+                <span class="navbar-text">Texto Muestra</span>
+
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <div class="container">
+        <h1 class="title-products">Productos</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="cards">
+                    <div class="image-cards">
+                        <img src="img/publicidad.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
 </body>
+
 </html>
