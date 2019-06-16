@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 
 
@@ -8,13 +9,20 @@ body {
 nav {
     background: #ffbf00 !important;
 }
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link {
+    color: #7b7b7b !important;
+}
+
 /* INT Content */
 .contenedor {
     width: 100% !important;
 }
 
 .title-products {
-    padding: 35px 60px 4px;
+    padding: 35px 0px 4px;
+    position: relative;
 }
 
 .cards {
@@ -23,11 +31,10 @@ nav {
 }
 
 .image-cards img {
-    max-width: 300px;
+    max-width: 336px;
     max-height: 300px;
 }
 
-.title-products,
 .fadeIn-one,
 .fadeIn-two,
 .fadeIn-three {
