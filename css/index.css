@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background: #7b7b7b57 !important;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 
@@ -39,4 +40,31 @@ nav {
 .fadeIn-two,
 .fadeIn-three {
     display: none;
+}
+
+.cards-icon {
+    background-color: #fefefe;
+    width: 190px;
+    height: 171px;
+    border-right: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.title-icon {
+    color: #666;
+    font-weight: 200;
+}
+
+.text-icon {
+    position: relative;
+    top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.clearFix {
+    float: left;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
